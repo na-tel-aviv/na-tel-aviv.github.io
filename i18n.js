@@ -1,5 +1,29 @@
 (()=>{
 const dict={
+  "סיכום הפגישה הראשונה לקראת הקמת ועדת שירות אזור תל אביב": "Summary of the First Meeting toward Establishing the Tel Aviv Area Service Committee",
+  "23.9.2026": "23 September 2026",
+  "פתיחת סיכום הפגישה": "Open meeting summary",
+  "בפגישה השתתפו 12 חברים וחברות. הפגישה נפתחה בתפילת השלווה, וניתן אמון להנחייתה.": "Twelve members attended. The meeting opened with the Serenity Prayer, and confidence was expressed in the meeting facilitator.",
+  "הצרכים שעלו בפגישה": "Needs raised at the meeting",
+  "חיזוק הקשר ושיתוף הפעולה בין 52 הקבוצות בתל אביב–יפו.": "Strengthening connections and cooperation among the 52 groups in Tel-Aviv-Yafo.",
+  "מענה לצרכים המקומיים של הקבוצות, לרבות מקומות הפגישה והסכמים מול העירייה.": "Addressing groups' local needs, including meeting venues and agreements with the municipality.",
+  "ליווי שליחים חדשים ומתן מידע על תפקידם ועל מבנה השירות.": "Supporting new group service representatives and providing information about their role and the service structure.",
+  "הרחבת ההשתתפות בשירות ויצירת אפשרויות מתאימות גם לחברים ולחברות חדשים.": "Broadening participation in service and creating suitable opportunities for newer members.",
+  "חיזוק קבלת הפנים לחבר החדש ולחברה החדשה.": "Improving the welcome offered to newcomers.",
+  "ריכוז כוח אדם ומשאבים לשירות משותף ומתמשך.": "Pooling people and resources for shared, sustained service.",
+  "ייצוג צורכי הקבוצות בתל אביב–יפו בוועדה המחוזית.": "Representing the needs of Tel-Aviv-Yafo groups at the regional service committee.",
+  "הרוח המשותפת": "Our shared spirit",
+  "בדיון הודגש כי מטרת השירות היא לסייע לקבוצות לשאת את המסר למכור שעדיין סובל. על התהליך להישען על אחדות, טובתנו המשותפת, הקשבה לצורכי הקבוצות ותקשורת מכבדת עם גופי השירות הקיימים.": "The discussion emphasized that the purpose of service is to help groups carry the message to the addict who still suffers. The process should be grounded in unity, our common welfare, listening to groups' needs, and respectful communication with existing service bodies.",
+  "הבחירה להשתתף בוועדת שירות אזור תל אביב נתונה לכל קבוצה באמצעות המצפון הקבוצתי שלה.": "Each group decides whether to participate in the Tel Aviv Area Service Committee through its own group conscience.",
+  "הצעות להמשך": "Suggestions for moving forward",
+  "הוצע להגיע למצפוני הקבוצות, להקשיב לצורכיהן ולהציג את היוזמה. הודגש שכדאי לפתוח בשאלה:": "It was suggested that members visit group conscience meetings, listen to their needs and present the initiative. The proposed opening question was:",
+  "״מה הקבוצה צריכה?״": "“What does the group need?”",
+  "עלו הצעות להכין מסר משותף וסקר קצר, לפרסם בהודעות אן־איי, לפנות אישית לקבוצות וללמוד מניסיונם של חברים שהיו שותפים להקמת אזור השרון.": "Suggestions included preparing a shared message and a short survey, posting NA announcements, contacting groups directly, and learning from members who helped establish the HaSharon Area.",
+  "סיכום והמשך הדרך": "Summary and next steps",
+  "לגבש עם מספר חברים מסר לקבוצות וסקר קצר למצפונים.": "Work with several members to prepare a message for the groups and a short survey for group conscience meetings.",
+  "להביא את היוזמה לדיון בשבעת המצפונים שצוינו בפגישה, ולחזור עם תשובותיהם.": "Bring the initiative to the seven group consciences mentioned at the meeting and report back with their responses.",
+  "בסיכום הפגישה הוצע להתחיל בהתארגנות עם הצטרפותן של לפחות שבע קבוצות.": "At the close of the meeting, it was proposed that organizing begin once at least seven groups join.",
+  "לקיים פגישה נוספת בעוד כחודש, ביום שני בשעה 19:30. התאריך המדויק יפורסם בהמשך בקבוצת הוואטסאפ.": "Hold another meeting in about a month, on a Monday at 19:30. The exact date will be announced later in the WhatsApp group.",
   "פגישות בתל אביב–יפו | תל אביב–יפו · NA": "Meetings in Tel-Aviv-Yafo | NA",
   "לעמוד הראשי": "Home",
   "פגישות בתל אביב–יפו": "Meetings in Tel-Aviv-Yafo",
@@ -299,3 +323,4 @@ function start(){
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 })();
+
