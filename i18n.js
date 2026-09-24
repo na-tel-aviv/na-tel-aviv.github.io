@@ -1,5 +1,6 @@
 (()=>{
 const dict={
+  "פגישה 1 · 23.9.2026": "Meeting 1 · 23.9.2026",
   "סיכום הפגישה הראשונה לקראת הקמת ועדת שירות אזור תל אביב": "Summary of the First Meeting toward Establishing the Tel Aviv Area Service Committee",
   "23.9.2026": "23 September 2026",
   "פתיחת סיכום הפגישה": "Open meeting summary",
@@ -323,4 +324,5 @@ function start(){
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 })();
+
 
