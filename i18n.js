@@ -119,6 +119,7 @@ const dict={
   "דיווח על הכנסות, הוצאות ויתרות.": "Income, expenses and balances.",
   "אין עדיין דוחות גזבר לפרסום.": "No treasurer's reports have been published yet.",
   "דוחות תתי־ועדות": "Subcommittee reports",
+  "עלון מידע — שאלות ותשובות": "Information leaflet — Questions & answers (Hebrew)",
   "עדכוני פעילות, צרכים ותוכניות עבודה.": "Activities, needs and work plans.",
   "אין עדיין דוחות תתי־ועדות לפרסום.": "No subcommittee reports have been published yet.",
   "המסמכים שיופיעו כאן יהיו מסמכים שאושרו לפרסום לציבור. מסמכים פנימיים אינם מוצגים באתר.": "Documents here will have been approved for public release. Internal documents are not displayed on this website.",
