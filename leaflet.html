@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#153E67">
+<meta name="theme-color" content="#133E68">
 <meta name="description" content="עלון הסבר של היוזמה המקומית להקמת ועדת שירות אזור תל אביב: שאלות ותשובות לקבוצות.">
 <link rel="canonical" href="https://na-tel-aviv.github.io/leaflet.html">
 <meta property="og:type" content="website">
@@ -13,24 +13,24 @@
 <meta property="og:url" content="https://na-tel-aviv.github.io/leaflet.html">
 <meta property="og:image" content="https://na-tel-aviv.github.io/assets/tel-aviv-share.jpg">
 <title>ועדת שירות אזור תל אביב · שאלות ותשובות</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@700;800&family=Heebo:wght@400;500;700&display=swap">
 <style>
+  @font-face { font-family: "Meoded Pashut"; src: url("meoded-pashut-light.woff") format("woff"); font-weight: 300; font-display: swap; }
+  @font-face { font-family: "Meoded Pashut"; src: url("meoded-pashut-bold.woff") format("woff"); font-weight: 700; font-display: swap; }
   :root {
-    --bg: #E6EDF4;
+    --bg: #E8F1F8;
     --card: #FFFFFF;
-    --shadow: #BCCCDC;
-    --navy: #153E67;
-    --navy-soft: #1E5282;
-    --heading: #1A4F80;
-    --text: #2A2F36;
-    --muted: #6B7480;
-    --line: #C9D5E1;
-    --teal: #1E8E98;
-    --teal-soft: #EAF6F6;
-    --teal-ink: #17545A;
-    --gold: #E9C26A;
-    --btn: #16578C;
+    --shadow: #C9D9E6;
+    --navy: #133E68;
+    --navy-soft: #1B507C;
+    --heading: #12558A;
+    --text: #1B2D42;
+    --muted: #546475;
+    --line: #D3DFEA;
+    --teal: #158D9B;
+    --teal-soft: #EDF9F9;
+    --teal-ink: #165963;
+    --gold: #E9C068;
+    --btn: #12558A;
     color-scheme: light;
   }
   * { box-sizing: border-box; }
@@ -39,7 +39,7 @@
   body {
     background: var(--bg);
     color: var(--text);
-    font: 400 18px/1.8 "Heebo", "Arial Hebrew", Arial, sans-serif;
+    font: 300 20px/1.75 "Meoded Pashut", "Arial Hebrew", Arial, sans-serif;
     padding: 24px 16px 40px;
   }
   .wrap { max-width: 620px; margin: 0 auto; display: grid; gap: 28px; }
@@ -58,19 +58,19 @@
     color: #fff;
     text-align: center;
   }
-  .eyebrow { color: #9FD3DA; font-size: 15px; }
+  .eyebrow { color: #9FD3DA; font-size: 17px; }
   h1, h2 {
-    font-family: "Assistant", "Heebo", Arial, sans-serif;
-    font-weight: 800;
+    font-family: "Meoded Pashut", Arial, sans-serif;
+    font-weight: 700;
     line-height: 1.25;
     margin: 0;
     text-wrap: balance;
   }
-  h1 { font-size: clamp(36px, 10vw, 50px); }
-  h2 { font-size: 27px; color: var(--heading); }
+  h1 { font-size: clamp(42px, 11.5vw, 58px); }
+  h2 { font-size: 29px; color: var(--heading); }
   h2:not(:first-child) { margin-top: 16px; }
   p { margin: 0; }
-  .subtitle { font-size: 21px; }
+  .subtitle { font-size: 23px; }
 
   blockquote {
     margin: 0;
@@ -79,9 +79,9 @@
     border-radius: 4px;
     padding: 18px 22px;
     color: var(--teal-ink);
-    font-family: "Assistant", "Heebo", Arial, sans-serif;
+    font-family: "Meoded Pashut", Arial, sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.55;
   }
   .cover blockquote {
@@ -90,18 +90,21 @@
     color: var(--gold);
     text-align: right;
   }
-  .source { color: var(--muted); font-size: 14px; line-height: 1.6; margin-top: -8px; }
+  .source { color: var(--muted); font-size: 16px; line-height: 1.6; margin-top: -8px; }
   .cover .source { color: #C9D8E8; margin-top: -8px; }
-  .imprint { color: #C9D8E8; font-size: 14px; line-height: 1.6; }
-  .fine { color: var(--muted); font-size: 15px; line-height: 1.7; }
+  .imprint { color: #C9D8E8; font-size: 16px; line-height: 1.6; }
+  .fine { color: var(--muted); font-size: 17px; line-height: 1.7; }
 
   .nav {
+    position: sticky;
+    bottom: 0;
     display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    background: #F6FAFD;
     border-top: 1px solid var(--line);
-    padding-top: 20px;
+    padding: 16px 20px calc(16px + env(safe-area-inset-bottom, 0px));
   }
   .btn {
-    font: 700 18px "Heebo", Arial, sans-serif;
+    font: 700 20px "Meoded Pashut", Arial, sans-serif;
     min-width: 120px;
     padding: 12px 20px;
     border-radius: 6px;
@@ -112,7 +115,7 @@
   .btn.ghost { background: #fff; color: var(--btn); border-color: var(--line); }
   .btn:disabled { opacity: .45; cursor: default; }
   .btn:focus-visible { outline: 3px solid rgba(30, 142, 152, .35); outline-offset: 2px; }
-  .counter { color: var(--heading); font-variant-numeric: tabular-nums; font-size: 17px; }
+  .counter { color: #173D62; font-variant-numeric: tabular-nums; font-size: 19px; }
 
   @media (max-width: 420px) {
     .card { padding: 36px 20px 40px; box-shadow: 8px 8px 0 var(--shadow); }
@@ -135,7 +138,7 @@
     <blockquote>״אין מספר קסם לחלוקת אזור, הסיבה האמיתית צריכה להיות תפקוד, לא צורה.״</blockquote>
     <p class="source">מדריך מבנה השירות, עמ׳ 43</p>
     <p>היוזמה להקמת ועדת שירות אזור תל אביב נועדה לברר עם הקבוצות כיצד אפשר לחזק את השירות המקומי, את הקשר ביניהן ואת נשיאת המסר בעיר. נקודת המוצא היא צורכי הקבוצות ורצונן לקחת חלק בשירות. התשובות להלן מציעות יישום של עקרונות המדריך ליוזמה; הציטוטים מובאים בנפרד כלשונם מן הקובץ המצורף.</p>
-    <p class="imprint">עלון הסבר של היוזמה המקומית<br>אינו פרסום רשמי של אנ״איי</p>
+    <p class="imprint">עלון הסבר של היוזמה המקומית<br>אינו פרסום רשמי של אנ־איי</p>
   </section>
 
   <!-- 2 -->
@@ -200,7 +203,7 @@
     <p class="source">עמ׳ 25–26 במדריך, עמ׳ 39–40 בקובץ.</p>
 
     <h2>על המקורות</h2>
-    <p class="fine">הציטוטים מתוך ״קובץ מבנה שירות סופי.pdf״, שכותרתו ״מדריך מבנה השירות של מכורים אנונימיים״, מתוך המדריך לשירות מקומי, גרסת 2002. בעמ׳ 4 בקובץ מצוין: ״טיוטה לא להפצה״ ו״ספרות זו היא תרגום לא מאושר לעברית, שנת 2010״. עלון זה הוא עיבוד הסברי המבוסס על הקובץ שסופק, ואינו פרסום רשמי של אנ״איי. מספרי העמודים מפנים הן למספור המודפס במדריך והן למיקום בקובץ.</p>
+    <p class="fine">הציטוטים מתוך ״קובץ מבנה שירות סופי.pdf״, שכותרתו ״מדריך מבנה השירות של מכורים אנונימיים״, מתוך המדריך לשירות מקומי, גרסת 2002. בעמ׳ 4 בקובץ מצוין: ״טיוטה לא להפצה״ ו״ספרות זו היא תרגום לא מאושר לעברית, שנת 2010״. עלון זה הוא עיבוד הסברי המבוסס על הקובץ שסופק, ואינו פרסום רשמי של אנ־איי. מספרי העמודים מפנים הן למספור המודפס במדריך והן למיקום בקובץ.</p>
   </section>
 
   <nav class="nav" aria-label="מעבר בין עמודי העלון">
