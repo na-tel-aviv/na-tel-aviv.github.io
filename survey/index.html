@@ -352,6 +352,7 @@
     updateNav();
     status.textContent = '';
     window.scrollTo({ top: 0 });
+    saveProgress();
   }
 
   function updateNav() {
@@ -404,7 +405,7 @@
   function submit() {
     nextBtn.disabled = prevBtn.disabled = true;
     status.textContent = 'שולח…';
-    const done = () => show('thanks');
+    const done = () => { clearProgress(); show('thanks'); };
     const fail = () => {
       nextBtn.disabled = prevBtn.disabled = false;
       status.textContent = 'השליחה לא הצליחה. נסו שוב, או ';
@@ -420,6 +421,40 @@
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(collect()),
     }).then(r => r.json()).then(j => (j.ok ? done() : fail())).catch(fail);
+  }
+
+  // שמירת ההתקדמות בדפדפן, כדי שאפשר יהיה לקרוא את העלון ולחזור לאותו מקום בסקר
+  const STORE_KEY = 'na-tel-aviv-survey';
+  const MAX_AGE = 24 * 60 * 60 * 1000;
+  function saveProgress() {
+    if (current === 'thanks') return;
+    const fields = {};
+    form.querySelectorAll('input, textarea').forEach(el => {
+      if (!el.id) return;
+      if (el.type === 'radio' || el.type === 'checkbox') { if (el.checked) fields[el.id] = true; }
+      else if (el.value) fields[el.id] = el.value;
+    });
+    try { localStorage.setItem(STORE_KEY, JSON.stringify({ t: Date.now(), step: current, fields })); } catch (e) {}
+  }
+  function clearProgress() {
+    try { localStorage.removeItem(STORE_KEY); } catch (e) {}
+  }
+  function restoreProgress() {
+    let saved = null;
+    try { saved = JSON.parse(localStorage.getItem(STORE_KEY)); } catch (e) {}
+    if (!saved || !saved.fields || Date.now() - saved.t > MAX_AGE) { show('intro'); return; }
+    for (const [id, v] of Object.entries(saved.fields)) {
+      const el = document.getElementById(id);
+      if (!el) continue;
+      if (el.type === 'radio' || el.type === 'checkbox') el.checked = true; else el.value = v;
+    }
+    Object.keys(MULTI).forEach(name => {
+      const boxes = form.querySelectorAll('input[name="' + name + '"]');
+      document.getElementById(name + 'Other').hidden = !boxes[boxes.length - 1].checked;
+    });
+    document.getElementById('wa-box').hidden = checked('involve')[0] !== WA_YES;
+    show(flow().includes(saved.step) ? saved.step : 'intro');
+    if (current !== 'intro') status.textContent = 'ממשיכים מהמקום שבו עצרתם';
   }
 
   nextBtn.addEventListener('click', () => {
@@ -438,6 +473,8 @@
     const field = e.target.closest('.field.invalid');
     if (field && e.target.value.trim()) { field.classList.remove('invalid'); field.querySelector('.err')?.remove(); }
   });
+  form.addEventListener('input', saveProgress);
+  form.addEventListener('change', saveProgress);
   form.addEventListener('change', e => {
     const field = e.target.closest('.field.invalid');
     if (field) { field.classList.remove('invalid'); field.querySelector('.err')?.remove(); }
@@ -446,7 +483,7 @@
   });
   form.addEventListener('submit', e => e.preventDefault());
 
-  show('intro');
+  restoreProgress();
 </script>
 </body>
 </html>
