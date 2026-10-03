@@ -152,6 +152,7 @@
   }
   .link-btn.wa { background: var(--gold); color: var(--navy); }
   .link-btn.leaf { border: 1.5px solid #BFDCD9; color: #fff; }
+  .card:not(.cover) .link-btn.leaf { border-color: var(--btn); color: var(--btn); }
   .wa-box { display: grid; gap: 12px; background: var(--teal-soft); border-radius: 6px; padding: 16px; }
   .wa-box p { color: var(--teal-ink); font-weight: 700; }
   .status { text-align: center; color: var(--muted); font-size: 18px; }
@@ -173,9 +174,6 @@
     <section class="card cover" data-step="intro">
       <div class="eyebrow">מכורים אנונימיים · יוזמה מקומית לשירות</div>
       <h1>סקר<br>למצפוני קבוצות<br>בתל אביב</h1>
-      <p class="subtitle">בחינת צורכי השירות והאפשרות להקמת אזור תל אביב</p>
-      <div class="quote">הסקר אינו הצבעה בעד או נגד הקמת אזור חדש. מטרתו לברר מהו מבנה השירות המתאים ביותר.</div>
-      <p>חברים וחברות מצפון יקרים, בתל אביב-יפו פועלות כיום 52 קבוצות במספר מוקדי מפגשים. מתוך רצון לבחון את צורכי השירות של הקבוצות ואת הדרכים האפשריות לתת להם מענה מתאים, אנו מבקשים לבדוק מה עובד כיום, מה חסר ואיזה מבנה שירות יעזור לקבוצות לשאת את הבשורה בצורה הטובה ביותר.</p>
       <a class="link-btn leaf" data-leaflet target="_blank" rel="noopener">לעלון המידע</a>
       <p class="note">מומלץ למלא את הסקר לאחר דיון במצפון,<br>כך שהתשובות ישקפו ככל האפשר את קול הקבוצה.</p>
     </section>
@@ -233,17 +231,15 @@
     <section class="card" data-step="structure" hidden>
       <h2>מבנה השירות</h2>
       <fieldset class="field" data-required="radio">
-        <legend class="label">באיזו מידה הקבוצה מרגישה שצורכי השירות שלה מקבלים כיום מענה באזור? <span class="req">*</span></legend>
+        <legend class="label">באיזו מידה הקבוצה מרגישה שצורכי השירות שלה מקבלים כיום מענה בוועדה האזורית? <span class="req">*</span></legend>
         <div class="opts" id="needsMet-opts"></div>
-      </fieldset>
-      <fieldset class="field" data-required="radio">
-        <legend class="label">האם יש מקום לייעל את השירות ולהקים ועדת שירות נפרדת לעיר תל אביב? <span class="req">*</span></legend>
-        <div class="opts" id="separate-opts"></div>
       </fieldset>
     </section>
 
     <section class="card" data-step="involve" hidden>
       <h2>השירות מתחיל בנו</h2>
+      <p>קבוצות ומצפונים בתל אביב דורשים מיקוד, משאבים ושירותים ייעודיים להם. על מנת להמשיך ולענות על השאלה הבאה, מומלץ לשקול את כל נקודות המבט. אנא לחצו על הקישור לעלון המידע וקראו בעיון.</p>
+      <a class="link-btn leaf" data-leaflet target="_blank" rel="noopener">לעלון המידע</a>
       <fieldset class="field" data-required="radio">
         <legend class="label">האם מצפון קבוצתכם מעוניין לקחת חלק פעיל בוועדת אזור תל אביב החדשה? <span class="req">*</span></legend>
         <div class="opts" id="involve-opts"></div>
@@ -297,12 +293,6 @@
       'ספרות', 'פעילויות ואירועי גיבוש',
     ],
     needsMet: ['במידה רבה מאוד', 'במידה רבה', 'באופן חלקי', 'במידה מועטה', 'בכלל לא', 'אין לנו מספיק מידע כדי לענות'],
-    separate: [
-      'כן, בהחלט – תל אביב דורשת מיקוד, משאבים ושירות ייעודיים שלא מקבלים מענה כרגע',
-      'אולי, יש לבחון את המשאבים והמוכנות של החברים לשרת',
-      'לא, עדיף להשאיר את המצב הקיים ולתקן את הבעיות בתוך האזור הקיים',
-      'אין דעה מגובשת / נדרש דיון נוסף בקבוצה',
-    ],
     involve: ['כן, נשלח שליח/ה לפגישה הקרובה', 'נרצה לקיים דיון נוסף במצפון הקבוצה', 'לא בשלב זה'],
   };
   const MULTI = { difficulties: 'סיבה אחרת', areas: 'אחר' };
@@ -406,7 +396,7 @@
       difficultiesOther: hasDiff ? other('difficulties') : '',
       areas: checked('areas').filter(v => v !== MULTI.areas), areasOther: other('areas'),
       freeText: val('freeText'),
-      needsMet: checked('needsMet')[0] || '', separate: checked('separate')[0] || '', involve: checked('involve')[0] || '',
+      needsMet: checked('needsMet')[0] || '', involve: checked('involve')[0] || '',
     };
   }
 
