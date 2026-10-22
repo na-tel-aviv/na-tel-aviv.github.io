@@ -187,6 +187,8 @@ const dict={
   "יום שבת, 24.10.2026, בשעה 20:00 — חגיגת חמש שנים לעמנואל בפגישת גן דבורה.": "Saturday, 24 October 2026, at 20:00 — celebrating five years for Emmanuel at the Gan Dvora meeting.",
   "גן דבורה — ציון דרך: זוהר, שנה אחת": "Gan Dvora — milestone: Zohar, one year",
   "יום שני, 2.11.2026, בשעה 20:00 — חגיגת שנה אחת נקיון לזוהר בפגישת גן דבורה.": "Monday, 2 November 2026, at 20:00 — celebrating one year clean for Zohar at the Gan Dvora meeting.",
+  "גן דבורה — ציון דרך: מירב, שנה אחת": "Gan Dvora — milestone: Meirav, one year",
+  "יום שישי, 30.10.2026, בשעה 11:00 — חגיגת שנה אחת נקיון למירב בפגישת גן דבורה.": "Friday, 30 October 2026, at 11:00 — celebrating one year clean for Meirav at the Gan Dvora meeting.",
   "מודעות; ניתן לגלול ידנית": "Notices; scroll manually",
   "עצירת גלילה": "Pause scrolling",
   "כל המודעות": "All notices",
