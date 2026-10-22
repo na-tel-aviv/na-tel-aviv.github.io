@@ -162,6 +162,7 @@ const dict={
   "תל אביב–יפו": "Tel-Aviv-Yafo",
   "מציאת פגישה באזור תל אביב–יפו": "Find a meeting in Tel-Aviv-Yafo",
   "הצטרפות לוואטסאפ": "Join WhatsApp",
+  "הצטרפות לוואטסאפ אזור תל אביב–יפו": "Join the Tel-Aviv-Yafo area WhatsApp",
   "צור קשר · בקרוב": "Contact · Coming soon",
   "דף הבית": "Home",
   "על היוזמה": "About the Initiative",
