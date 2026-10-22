@@ -1,9 +1,12 @@
 name: probe naisrael
 on: push
+permissions:
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - run: |
           mkdir out
           for u in https://www.naisrael.org.il/ https://www.naisrael.org.il/meetings/ https://www.naisrael.org.il/wp-json/ https://www.naisrael.org.il/feed/ https://www.naisrael.org.il/sitemap.xml; do
@@ -11,7 +14,6 @@ jobs:
             curl -sSL -A "Mozilla/5.0" -D "$f.headers" -o "$f" "$u" || echo "fail $u" >> out/errors.txt
           done
           ls -la out
-      - uses: actions/upload-artifact@v4
-        with:
-          name: probe
-          path: out
+          mkdir -p probe-out && mv out/* probe-out/
+          git config user.name github-actions && git config user.email github-actions@users.noreply.github.com
+          git add probe-out && git commit -m "probe output" && git push
