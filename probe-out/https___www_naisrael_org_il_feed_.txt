@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>מכורים אנונימיים ישראל</title>
+	<atom:link href="https://www.naisrael.org.il/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.naisrael.org.il</link>
+	<description></description>
+	<lastBuildDate>Mon, 04 May 2026 08:40:50 +0000</lastBuildDate>
+	<language>he-IL</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.10</generator>
+
+<image>
+	<url>https://www.naisrael.org.il/wp-content/uploads/2016/01/cropped-מסורת-7-ריבוע-32x32.jpg</url>
+	<title>מכורים אנונימיים ישראל</title>
+	<link>https://www.naisrael.org.il</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>קבוצת &#8216;מטרתנו העיקרית&#8217; מזמינה לעשות שירות יחד</title>
+		<link>https://www.naisrael.org.il/%d7%a7%d7%91%d7%95%d7%a6%d7%aa-%d7%9e%d7%98%d7%a8%d7%aa%d7%a0%d7%95-%d7%94%d7%a2%d7%99%d7%a7%d7%a8%d7%99%d7%aa-%d7%9e%d7%96%d7%9e%d7%99%d7%a0%d7%94-%d7%9c%d7%a2%d7%a9%d7%95%d7%aa-%d7%a9%d7%99/</link>
+		
+		<dc:creator><![CDATA[Daria]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 08:40:50 +0000</pubDate>
+				<category><![CDATA[הודעות שירות]]></category>
+		<guid isPermaLink="false">https://www.naisrael.org.il/?p=20500</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><img fetchpriority="high" decoding="async" class="alignnone size-medium wp-image-20497" src="https://www.naisrael.org.il/wp-content/uploads/2026/05/צילום-מסך-2026-04-26-230627-261x300.jpg" alt="" width="261" height="300" srcset="https://www.naisrael.org.il/wp-content/uploads/2026/05/צילום-מסך-2026-04-26-230627-261x300.jpg 261w, https://www.naisrael.org.il/wp-content/uploads/2026/05/צילום-מסך-2026-04-26-230627-891x1024.jpg 891w, https://www.naisrael.org.il/wp-content/uploads/2026/05/צילום-מסך-2026-04-26-230627-768x883.jpg 768w, https://www.naisrael.org.il/wp-content/uploads/2026/05/צילום-מסך-2026-04-26-230627.jpg 983w" sizes="(max-width: 261px) 100vw, 261px" /></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>קיום פגישות NA אונליין בעקבות המצב</title>
+		<link>https://www.naisrael.org.il/%d7%a7%d7%99%d7%95%d7%9d-%d7%a4%d7%92%d7%99%d7%a9%d7%95%d7%aa-na-%d7%90%d7%95%d7%a0%d7%9c%d7%99%d7%99%d7%9f-%d7%91%d7%a2%d7%a7%d7%91%d7%95%d7%aa-%d7%94%d7%9e%d7%a6%d7%91/</link>
+		
+		<dc:creator><![CDATA[Or]]></dc:creator>
+		<pubDate>Mon, 02 Mar 2026 05:49:10 +0000</pubDate>
+				<category><![CDATA[הודעות שירות]]></category>
+		<guid isPermaLink="false">https://www.naisrael.org.il/?p=20061</guid>
+
+					<description><![CDATA[חברים יקרים בעקבות המצב הביטחוני במדינה ו/או בעיות בחלק מהמקלטים, קיימת אפשרות לקיים פגישות NA אונליין עד שהמצב הביטחוני יירגע. בכל ערב במהלך השבוע מתקיימות פגישות אונליין. ניתן להצטרך באמצעות הקישורים המופיעים באתר הרשמי של NA ישראל: https://www.naisrael.org.il/meetings לבקשת עזרה והכוונה בנושא, או במקרה שחברים רוצים לפתוח קבוצת אונליין חדשה, נשמח לעזור. לשאלות טכניות ניתן [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><strong>חברים יקרים</strong></p>
+<p>בעקבות המצב הביטחוני במדינה ו/או בעיות בחלק מהמקלטים, קיימת אפשרות לקיים פגישות NA אונליין עד שהמצב הביטחוני יירגע.<br />
+בכל ערב במהלך השבוע מתקיימות פגישות אונליין.<br />
+ניתן להצטרך באמצעות הקישורים המופיעים באתר הרשמי של NA ישראל:<br />
+<a href="https://www.naisrael.org.il/meetings">https://www.naisrael.org.il/meetings</a><br />
+לבקשת עזרה והכוונה בנושא, או במקרה שחברים רוצים לפתוח קבוצת אונליין חדשה, נשמח לעזור.<br />
+לשאלות טכניות ניתן לפנות ליו&#8221;ר הוועדה הטכנית של אזור האונליין:</p>
+<p>אלכס 054-5994357</p>
+<p>בשירות אוהב,<br />
+אזור אונליין</p>
+<p><img decoding="async" class="alignnone size-medium wp-image-20062" src="https://www.naisrael.org.il/wp-content/uploads/2026/03/4ApbhhplJ6EKCTJvnhpRFXK1m71itnnhDA-240x300.png" alt="" width="240" height="300" srcset="https://www.naisrael.org.il/wp-content/uploads/2026/03/4ApbhhplJ6EKCTJvnhpRFXK1m71itnnhDA-240x300.png 240w, https://www.naisrael.org.il/wp-content/uploads/2026/03/4ApbhhplJ6EKCTJvnhpRFXK1m71itnnhDA-819x1024.png 819w, https://www.naisrael.org.il/wp-content/uploads/2026/03/4ApbhhplJ6EKCTJvnhpRFXK1m71itnnhDA-768x960.png 768w, https://www.naisrael.org.il/wp-content/uploads/2026/03/4ApbhhplJ6EKCTJvnhpRFXK1m71itnnhDA.png 1080w" sizes="(max-width: 240px) 100vw, 240px" /></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>בואו לקחת חלק במצפון הרוחני של התוכנית שמצילה את כולנו</title>
+		<link>https://www.naisrael.org.il/%d7%91%d7%95%d7%90%d7%95-%d7%9c%d7%a7%d7%97%d7%aa-%d7%97%d7%9c%d7%a7-%d7%91%d7%9e%d7%a6%d7%a4%d7%95%d7%9f-%d7%94%d7%a8%d7%95%d7%97%d7%a0%d7%99-%d7%a9%d7%9c-%d7%94%d7%aa%d7%95%d7%9b%d7%a0%d7%99%d7%aa/</link>
+		
+		<dc:creator><![CDATA[נטע]]></dc:creator>
+		<pubDate>Sat, 17 Jan 2026 09:49:19 +0000</pubDate>
+				<category><![CDATA[הודעות שירות]]></category>
+		<guid isPermaLink="false">https://www.naisrael.org.il/?p=19819</guid>
+
+					<description><![CDATA[לקראת ועידת השירות העולמית של אנ איי תרגמנו לכם 3 סקרים שהתוצאות שלהם יכוונו את מאמצי אנ איי בעולם כולו בשנים הבאות. מוזמנים לענות על הסקרים ולקחת חלק במצפון הרוחני של התוכנית: 1. סקר ישפה כוללנית מגדרית בספרות אנ אייGender -Neutral &#8211; https://www.surveymonkey.com/r/2026_CAR_Gender_Neutral?lang=he 2. סקר בנושא קווי מנחה לחברותא לקבלת חברים הנעזרים בתרופות תומכות גמילה DRT/MAT &#8211; https://www.surveymonkey.com/r/2026_CAR_DRT_MAT?lang=he [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">לקראת ועידת השירות העולמית של אנ איי תרגמנו לכם 3 סקרים שהתוצאות שלהם יכוונו את מאמצי אנ איי בעולם כולו בשנים הבאות. מוזמנים לענות על הסקרים ולקחת חלק במצפון הרוחני של התוכנית:</div>
+<div dir="auto"></div>
+<div dir="auto">1. סקר ישפה כוללנית מגדרית בספרות אנ אייGender</div>
+<div dir="auto">-Neutral &#8211; <a href="https://www.surveymonkey.com/r/2026_CAR_Gender_Neutral?lang=he" target="_blank" rel="noopener noreferrer">https://www.surveymonkey.com/r/2026_CAR_Gender_Neutral?lang=he</a></div>
+<div dir="auto">2. סקר בנושא קווי מנחה לחברותא לקבלת חברים הנעזרים בתרופות תומכות גמילה</div>
+<div dir="auto">DRT/MAT &#8211; <a href="https://www.surveymonkey.com/r/2026_CAR_DRT_MAT?lang=he" target="_blank" rel="noopener noreferrer">https://www.surveymonkey.com/r/2026_CAR_DRT_MAT?lang=he</a></div>
+<div dir="auto">3. סקר ספרות החלמה ושירות &#8211;</div>
+<div dir="auto">CAR Survey &#8211; <a href="https://www.surveymonkey.com/r/2026_CAR_Survey?lang=he" target="_blank" rel="noopener noreferrer">https://www.surveymonkey.com/r/2026_CAR_Survey?lang=he</a></div>
+<div dir="auto"></div>
+<div dir="auto">Please review all the surveys and let us know if you have any changes/edits. Once we have those done, we can post to <a href="http://na.org/" target="_blank" rel="noopener noreferrer">na.org</a> and you can share with others.</div>
+<div dir="auto"></div>
+<div dir="auto"></div>
+<div dir="auto">For the CAR Survey, it appeared that possibly some of the text is missing</div>
+<div dir="auto"></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ספר אלקטרוני e book- שתפו את הסיפור שלכם – המועד הוארך עד מרץ!</title>
+		<link>https://www.naisrael.org.il/%d7%a1%d7%a4%d7%a8-%d7%90%d7%9c%d7%a7%d7%98%d7%a8%d7%95%d7%a0%d7%99-e-book-%d7%a9%d7%aa%d7%a4%d7%95-%d7%90%d7%aa-%d7%94%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%a9%d7%9c%d7%9b%d7%9d-%d7%94%d7%9e/</link>
+		
+		<dc:creator><![CDATA[נטע]]></dc:creator>
+		<pubDate>Sat, 17 Jan 2026 09:43:45 +0000</pubDate>
+				<category><![CDATA[הודעות שירות]]></category>
+		<guid isPermaLink="false">https://www.naisrael.org.il/?p=19817</guid>
+
+					<description><![CDATA[חברים יקרים, שמחים לעדכן שהמועד להגשת סיפורים לספרון ה-LGBTQIA+ (הקהילה הגאה) של NA הוארך עד חודש מרץ. אם אתם מזדהים כחלק מהקהילה ומצאתם החלמה, הניסיון שלכם יכול לעורר תקווה ולעזור למכור אחר. מוזמנים לכתוב בחופשיות על המסע שלכם, האתגרים והמתנות שבדרך באנגלית. אנונימיות מלאה נשמרת. להגשת סיפורים: במייל: fd@edmna.org או באתר: https://edmna.org/share-your-story/ בשירות ואחדות, צוות פיתוח החברותא [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">חברים יקרים,</div>
+<div dir="auto">שמחים לעדכן שהמועד להגשת סיפורים לספרון ה-LGBTQIA+ (הקהילה הגאה) של NA הוארך עד חודש מרץ.</div>
+<div dir="auto">אם אתם מזדהים כחלק מהקהילה ומצאתם החלמה, הניסיון שלכם יכול לעורר תקווה ולעזור למכור אחר. מוזמנים לכתוב בחופשיות על המסע שלכם, האתגרים והמתנות שבדרך באנגלית.</div>
+<div dir="auto">אנונימיות מלאה נשמרת.</div>
+<div dir="auto"> להגשת סיפורים:</div>
+<div dir="auto">במייל: <a href="mailto:fd@edmna.org" target="_blank" rel="noopener noreferrer">fd@edmna.org</a></div>
+<div dir="auto">או באתר: <a href="https://edmna.org/share-your-story/" target="_blank" rel="noopener noreferrer">https://edmna.org/share-your-story/</a></div>
+<div dir="auto">בשירות ואחדות,</div>
+<div dir="auto">צוות פיתוח החברותא (FD) EDM</div>
+<div dir="auto"><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" /></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>הצעת סדנאות למש&#8221;מ 2026</title>
+		<link>https://www.naisrael.org.il/%d7%94%d7%a6%d7%a2%d7%aa-%d7%a1%d7%93%d7%a0%d7%90%d7%95%d7%aa-%d7%9c%d7%9e%d7%a9%d7%9e-2026/</link>
+		
+		<dc:creator><![CDATA[נטע]]></dc:creator>
+		<pubDate>Sat, 18 Oct 2025 05:11:08 +0000</pubDate>
+				<category><![CDATA[הודעות שירות]]></category>
+		<guid isPermaLink="false">https://www.naisrael.org.il/?p=19239</guid>
+
+					<description><![CDATA[הגשת הצעות עד תאריך 1/11/2025.]]></description>
+										<content:encoded><![CDATA[<p>הגשת הצעות עד תאריך 1/11/2025.</p>
+<p><img decoding="async" class="alignnone size-medium wp-image-19240" src="https://www.naisrael.org.il/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-14.20.51-211x300.jpeg" alt="" width="211" height="300" srcset="https://www.naisrael.org.il/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-14.20.51-211x300.jpeg 211w, https://www.naisrael.org.il/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-14.20.51-721x1024.jpeg 721w, https://www.naisrael.org.il/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-14.20.51-768x1090.jpeg 768w, https://www.naisrael.org.il/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-14.20.51-1082x1536.jpeg 1082w, https://www.naisrael.org.il/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-14.20.51.jpeg 1409w" sizes="(max-width: 211px) 100vw, 211px" /></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>שירות בוועדת מב&#8221;ס ירושלים</title>
+		<link>https://www.naisrael.org.il/%d7%a9%d7%99%d7%a8%d7%95%d7%aa-%d7%91%d7%95%d7%95%d7%a2%d7%93%d7%aa-%d7%9e%d7%91%d7%a1-%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%99%d7%9d/</link>
+		
+		<dc:creator><![CDATA[Yarden]]></dc:creator>
+		<pubDate>Mon, 28 Jul 2025 19:53:28 +0000</pubDate>
+				<category><![CDATA[הודעות שירות]]></category>
+		<guid isPermaLink="false">https://www.naisrael.org.il/?p=18894</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-18895" src="https://www.naisrael.org.il/wp-content/uploads/2025/07/מבס-ירושלים-195x300.jpg" alt="" width="195" height="300" srcset="https://www.naisrael.org.il/wp-content/uploads/2025/07/מבס-ירושלים-195x300.jpg 195w, https://www.naisrael.org.il/wp-content/uploads/2025/07/מבס-ירושלים-664x1024.jpg 664w, https://www.naisrael.org.il/wp-content/uploads/2025/07/מבס-ירושלים-768x1184.jpg 768w, https://www.naisrael.org.il/wp-content/uploads/2025/07/מבס-ירושלים-996x1536.jpg 996w, https://www.naisrael.org.il/wp-content/uploads/2025/07/מבס-ירושלים.jpg 1080w" sizes="auto, (max-width: 195px) 100vw, 195px" /></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>דרושים חברים לשירות באיזור אונליין</title>
+		<link>https://www.naisrael.org.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d-%d7%97%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%a9%d7%99%d7%a8%d7%95%d7%aa-%d7%91%d7%90%d7%99%d7%96%d7%95%d7%a8-%d7%90%d7%95%d7%a0%d7%9c%d7%99%d7%99%d7%9f/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Sat, 31 May 2025 09:39:36 +0000</pubDate>
+				<category><![CDATA[הודעות שירות]]></category>
+		<guid isPermaLink="false">https://www.naisrael.org.il/?p=18416</guid>
+
+					<description><![CDATA[איזור אונליין מגייס חברים לשירות בתפקידים השונים בוועדה ניתן לצפות בטבלת הקריטריונים בלינק הבא ולהגיש מועמדות כאן]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" class="alignnone wp-image-19121" src="https://www.naisrael.org.il/wp-content/uploads/2025/05/דרושים-איזור-אונליין-219x300.png" alt="" width="367" height="503" srcset="https://www.naisrael.org.il/wp-content/uploads/2025/05/דרושים-איזור-אונליין-219x300.png 219w, https://www.naisrael.org.il/wp-content/uploads/2025/05/דרושים-איזור-אונליין-749x1024.png 749w, https://www.naisrael.org.il/wp-content/uploads/2025/05/דרושים-איזור-אונליין-768x1050.png 768w, https://www.naisrael.org.il/wp-content/uploads/2025/05/דרושים-איזור-אונליין-1123x1536.png 1123w, https://www.naisrael.org.il/wp-content/uploads/2025/05/דרושים-איזור-אונליין-1498x2048.png 1498w" sizes="auto, (max-width: 367px) 100vw, 367px" /></p>
+<p>איזור אונליין מגייס חברים לשירות בתפקידים השונים בוועדה<br />
+ניתן לצפות בטבלת הקריטריונים ב<a href="https://docs.google.com/document/d/1Vh01Lk6UI-3BF3mBro47Y_aVMqglivSi/">לינק הבא</a><br />
+ולהגיש מועמדות <a href="https://docs.google.com/forms/d/e/1FAIpQLSeS8IpkrDF66IOpDD3kNWGybVdQXVWM1jQ_II8hfcwjZ_oGMw/viewform">כאן</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>דרושים לשירות בוועדת אינטרנט</title>
+		<link>https://www.naisrael.org.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d-%d7%9c%d7%a9%d7%99%d7%a8%d7%95%d7%aa-%d7%91%d7%95%d7%95%d7%a2%d7%93%d7%aa-%d7%90%d7%99%d7%a0%d7%98%d7%a8%d7%a0%d7%98/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Tue, 27 May 2025 14:18:28 +0000</pubDate>
+				<category><![CDATA[הודעות שירות]]></category>
+		<guid isPermaLink="false">https://www.naisrael.org.il/?p=18359</guid>
+
+					<description><![CDATA[וועדת אינטרנט זקוקה לחברים שיבואו לעשות שירות. אנו עוסקים בעדכון שוטף של האתר, תיקון תקלות, ושיפור חווית משתמש נשמע מאוד אם תצטרפו אלינו! לפרטים ניתן לפנות במייל web@naisrael.org.il]]></description>
+										<content:encoded><![CDATA[<p>וועדת אינטרנט זקוקה לחברים שיבואו לעשות שירות.<br />
+אנו עוסקים בעדכון שוטף של האתר, תיקון תקלות, ושיפור חווית משתמש<br />
+נשמע מאוד אם תצטרפו אלינו!<br />
+לפרטים ניתן לפנות במייל web@naisrael.org.il</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

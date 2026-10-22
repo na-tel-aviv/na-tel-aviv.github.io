@@ -1,0 +1,30 @@
+HTTP/2 301 
+date: Thu, 22 Oct 2026 06:25:59 GMT
+content-type: text/html; charset=UTF-8
+location: https://www.naisrael.org.il/wp-sitemap.xml
+cf-ray: a4e66d8519a17660-SEA
+cf-cache-status: DYNAMIC
+age: 0
+cache-control: no-cache
+server: cloudflare
+vary: User-Agent, accept-encoding
+x-cache: MISS
+x-redirect-by: WordPress
+set-cookie: __cf_bm=RE4yp2CqERUp2oW0fYPnqSDzs1kQ12cf6dvjhMqvlMw-1792650358.5765078-1.0.1.1-OA.C8uJyCXLHZMdNGhZ1LA4lmLnXqMl7vtfPrB_pBWdsSubzOqOgpXxczXBpZL_.eLKy9jF68xRVjMwJEBptpvilSRM94wZ_6FiuR4plzfcrGb4aQScO32OawiaDhlBR; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.naisrael.org.il; Expires=Thu, 22 Oct 2026 06:55:59 GMT
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Thu, 22 Oct 2026 06:25:59 GMT
+content-type: text/xml;charset=UTF-8
+cf-ray: a4e66d8aae827660-SEA
+cf-cache-status: DYNAMIC
+age: 0
+cache-control: no-cache
+last-modified: Thu, 22 Oct 2026 06:01:36 GMT
+server: cloudflare
+vary: Accept-Encoding, Accept-Encoding,User-Agent
+wpo-cache-status: cached
+x-cache: MISS
+set-cookie: __cf_bm=LjmhtR6rXmaJ9wjlwvXhlQ_3s3cJQ76C9TJwo6ZQiRY-1792650359.4665697-1.0.1.1-Z6BsfrG5j4ABStjQkrI8V.qSaZCixGy22MUFHlStFZL2Ftr8FllrvkNSH4wpflfF7NlYSjdg_C5w6_x9uiTDlvxf71.g9GRANlAbJSNa0y48BC6QjMCOzXcHFcGN7R_C; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.naisrael.org.il; Expires=Thu, 22 Oct 2026 06:55:59 GMT
+alt-svc: h3=":443"; ma=86400
+

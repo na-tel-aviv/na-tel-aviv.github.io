@@ -1,0 +1,17 @@
+HTTP/2 200 
+date: Thu, 22 Oct 2026 06:25:57 GMT
+content-type: application/json; charset=UTF-8
+cf-ray: a4e66d7dcbe6a390-SEA
+cf-cache-status: DYNAMIC
+allow: GET
+cache-control: no-cache
+link: <https://www.naisrael.org.il/wp-json/>; rel="https://api.w.org/"
+server: cloudflare
+vary: Accept-Encoding, Origin,User-Agent
+access-control-allow-headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+access-control-expose-headers: X-WP-Total, X-WP-TotalPages, Link
+x-content-type-options: nosniff
+x-robots-tag: noindex
+set-cookie: __cf_bm=e50sSO63dhC.WSNsC.fnWLzJMKlG9KshGuOXMxOSHzY-1792650357.4114318-1.0.1.1-AyT4I.3nREzmoVBmTHBr853h.Nkcw9KB7PJqVnEIYGABx7LWaVbWGWV0mhnP94HhGwEJr6MrUbKkEljuhehiVtKgR5CRYbPV1jr9NVOHPYc9eWGl9VnCN3QCyOBEec8I; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.naisrael.org.il; Expires=Thu, 22 Oct 2026 06:55:57 GMT
+alt-svc: h3=":443"; ma=86400
+

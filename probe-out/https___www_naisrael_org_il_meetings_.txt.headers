@@ -1,0 +1,15 @@
+HTTP/2 200 
+date: Thu, 22 Oct 2026 06:25:57 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: a4e66d7888acf2f7-SEA
+cf-cache-status: DYNAMIC
+age: 0
+cache-control: no-cache
+last-modified: Thu, 22 Oct 2026 04:08:54 GMT
+server: cloudflare
+vary: Accept-Encoding, Accept-Encoding,User-Agent
+wpo-cache-status: cached
+x-cache: MISS
+set-cookie: __cf_bm=0k0Csc2MIKskm.b4ip4dE.BhcSFbBapBRSnFfAldXRw-1792650356.5692549-1.0.1.1-Y.Y1itqddaSI6kGVwvmhRMn567RRXzcKtKtZDgeB08lxMY60gb0B153bzQbMzt2EJZDU_RQOpQ5AtBUYeaAA70ZNuHSTvpHWyXk8YmGQTyOUSS6UPYfUL_BVo0lHDQxW; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.naisrael.org.il; Expires=Thu, 22 Oct 2026 06:55:57 GMT
+alt-svc: h3=":443"; ma=86400
+
