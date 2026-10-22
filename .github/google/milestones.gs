@@ -2,13 +2,14 @@
  * ציוני דרך — Google Apps Script לאתר na-tel-aviv.github.io
  *
  * הטופס "שליחת ציון דרך" באתר שולח לכאן. כל ציון דרך נכנס כשורה בגיליון "ציוני דרך"
- * עם תיבת סימון "מאושר". רק שורות מסומנות מופיעות בלוח ההודעות באתר,
- * עד יום אחרי החגיגה.
+ * עם תיבת סימון "מאושר". שורות מסומנות מופיעות בלוח ההודעות באתר, עד יום אחרי החגיגה.
+ * כש-REQUIRE_APPROVAL הוא false, ציון דרך חדש מסומן מראש ומתפרסם מיד; ביטול הסימון מוריד אותו.
  */
 const SHEET_NAME = 'ציוני דרך';
 const HEADERS = ['נשלח', 'שם', 'ציון הדרך', 'פגישה', 'תאריך', 'שעה', 'מאושר'];
 const TZ = 'Asia/Jerusalem';
-const NOTIFY = true; // מייל לבעלת הגיליון על כל ציון דרך חדש
+const NOTIFY = true; // מייל לבעלי הגיליון על כל ציון דרך חדש
+const REQUIRE_APPROVAL = false; // true: ציון דרך מתפרסם רק אחרי סימון ✔ בגיליון
 
 function sheet_() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -51,13 +52,16 @@ function doPost(e) {
     const lock = LockService.getScriptLock();
     lock.waitLock(10000);
     const sh = sheet_();
-    sh.appendRow([new Date(), name, milestone, meeting, "'" + date, "'" + time, false]);
+    sh.appendRow([new Date(), name, milestone, meeting, "'" + date, "'" + time, !REQUIRE_APPROVAL]);
     sh.getRange(sh.getLastRow(), 7).insertCheckboxes();
+    sh.getRange(sh.getLastRow(), 7).setValue(!REQUIRE_APPROVAL);
     lock.releaseLock();
     if (NOTIFY) {
-      MailApp.sendEmail(Session.getEffectiveUser().getEmail(), 'ציון דרך חדש ממתין לאישור: ' + name,
-        name + ' – ' + milestone + '\n' + meeting + ', ' + date + ' ' + time +
-        '\n\nלאישור: לסמן ✔ בעמודה "מאושר" בגיליון:\n' + SpreadsheetApp.getActiveSpreadsheet().getUrl());
+      MailApp.sendEmail(Session.getEffectiveUser().getEmail(),
+        (REQUIRE_APPROVAL ? 'ציון דרך חדש ממתין לאישור: ' : 'ציון דרך חדש פורסם באתר: ') + name,
+        name + ' – ' + milestone + '\n' + meeting + ', ' + date + ' ' + time + '\n\n' +
+        (REQUIRE_APPROVAL ? 'לאישור: לסמן ✔ בעמודה "מאושר" בגיליון:\n' : 'להסרה מהאתר: לבטל את הסימון בעמודה "מאושר" בגיליון:\n') +
+        SpreadsheetApp.getActiveSpreadsheet().getUrl());
     }
     return json_({ ok: true });
   } catch (err) {
