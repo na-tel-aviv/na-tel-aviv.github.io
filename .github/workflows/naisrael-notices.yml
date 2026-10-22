@@ -1,0 +1,40 @@
+name: NA Israel notices
+on:
+  schedule:
+    - cron: '17 4 * * *'  # every day, ~07:17 Israel time
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+concurrency: naisrael-notices
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python .github/naisrael/check.py
+      - name: Open a pull request for new notices
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git diff --quiet -- community-v5.js .github/naisrael/seen.json && { echo "No new notices."; exit 0; }
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          # Remember what was checked on main, so a declined notice is not proposed again
+          git add .github/naisrael/seen.json
+          git diff --cached --quiet || { git commit -m "NA Israel notices: record checked notices"; git push origin HEAD:main; }
+          git diff --quiet -- community-v5.js && exit 0
+          branch="naisrael-notices-$(date +%Y%m%d)"
+          git checkout -b "$branch"
+          git commit -am "Notices: new from NA Israel ($(date +%d.%m.%Y))"
+          git push origin "$branch"
+          title="הודעות חדשות מ-NA ישראל – $(date +%d.%m.%Y)"
+          body="$(printf 'נמצאו באתר NA ישראל הודעות חדשות על פגישות בתל אביב–יפו.\nאחרי מיזוג הן יופיעו בלוח ההודעות באתר. אם לא רוצים לפרסם – לסגור בלי מיזוג.\n\n'; cat .github/naisrael/summary.md; printf '\nמקור: https://www.naisrael.org.il/meetings/\n')"
+          gh pr create --base main --head "$branch" --title "$title" --body "$body" \
+            || gh issue create --title "$title" --body "$body
+          
+          לא ניתן היה לפתוח בקשת מיזוג אוטומטית. לפרסום: https://github.com/${{ github.repository }}/compare/main...$branch?expand=1"
