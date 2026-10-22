@@ -1,0 +1,17 @@
+name: probe naisrael
+on: push
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mkdir out
+          for u in https://www.naisrael.org.il/ https://www.naisrael.org.il/meetings/ https://www.naisrael.org.il/wp-json/ https://www.naisrael.org.il/feed/ https://www.naisrael.org.il/sitemap.xml; do
+            f=out/$(echo "$u" | sed 's#[^a-zA-Z0-9]#_#g').txt
+            curl -sSL -A "Mozilla/5.0" -D "$f.headers" -o "$f" "$u" || echo "fail $u" >> out/errors.txt
+          done
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe
+          path: out
