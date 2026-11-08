@@ -178,3 +178,17 @@
   .home #home-board{gap:8px!important}
   .home #home-board>#bulletin,.home #home-board>.na-event-flyer-board{margin:0!important}
 }
+
+
+/* Final mobile spacing: shorter scrolling notices, without changing content */
+@media(max-width:750px){
+  .home #home-board>#bulletin .notice-window{
+    height:245px!important;max-height:none!important;
+    padding-top:2px!important;padding-bottom:2px!important;
+  }
+  .home #home-board>#bulletin .notice-window article{
+    padding-top:8px!important;padding-bottom:8px!important;
+  }
+  .home #home-board>#bulletin .na-notice-controls{margin-top:6px!important}
+  .home #home-board>#bulletin{padding-top:14px!important;padding-bottom:12px!important}
+}
