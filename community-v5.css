@@ -20,3 +20,31 @@
 .na-event-flyer[hidden]{display:none!important}
 @media(min-width:1101px){#home-board #bulletin.na-cork-board{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,0.85fr);column-gap:14px;align-items:start}#home-board #bulletin.na-cork-board>h2{grid-column:1/-1}#home-board #bulletin.na-cork-board>.notice-window{grid-column:1;grid-row:2}#home-board #bulletin.na-cork-board>.na-event-flyer{grid-column:2;grid-row:2;margin-top:8px}#home-board #bulletin.na-cork-board>.action,#home-board #bulletin.na-cork-board>#home-milestone{grid-column:1/-1}}
 @media(max-width:1100px){.na-event-flyer{max-width:220px}}
+
+
+/* Mobile bulletin: keep announcements readable and the flyer secondary. */
+@media(max-width:750px){
+  .home #home-board #bulletin.na-cork-board{
+    display:flex;flex-direction:column;align-items:stretch;
+    width:100%;max-width:100%;min-width:0;box-sizing:border-box;
+    padding:14px 12px 18px;overflow:visible;
+  }
+  .home #home-board #bulletin.na-cork-board>h2{margin-bottom:12px}
+  .home #home-board #bulletin.na-cork-board>.notice-window{
+    display:block;width:100%;min-width:0;box-sizing:border-box;
+    height:260px;max-height:38dvh;overflow-y:auto;overflow-x:hidden;
+    overscroll-behavior:contain;scrollbar-width:thin;
+    padding:4px 12px;flex:none;
+  }
+  .home #home-board #bulletin.na-cork-board .notice-window article{
+    overflow-wrap:anywhere;word-break:normal;line-height:1.5;
+  }
+  .home #home-board #bulletin.na-cork-board>.na-event-flyer{
+    box-sizing:border-box;width:min(190px,65%);max-width:190px;
+    margin:18px auto 14px;padding:14px 8px 8px;flex:none;
+    transform:rotate(-1deg);
+  }
+  .home #home-board #bulletin.na-cork-board>.action{
+    align-self:stretch;max-width:100%;white-space:normal;
+  }
+}
